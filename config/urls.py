@@ -24,5 +24,5 @@ urlpatterns = [
     path("",include('review.urls')),
     path("after_test/",include('review.urls')),
     path('admin/',admin.site.urls),
-    path("form-test/",include('review.urls')),
+    #path("export/",include('review.urls')),
 ]

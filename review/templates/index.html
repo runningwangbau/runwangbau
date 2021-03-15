@@ -74,7 +74,7 @@
                         <form id="contactForm"  novalidate="novalidate"  action="/" method="post">
                             {% csrf_token %}
                                 <div class="custom-control custom-radio">
-                            {{ form }}
+                            {% bootstrap_form form %}
 
                             <br>
                             <div class="cotrol-group">

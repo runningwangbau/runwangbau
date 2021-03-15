@@ -4,5 +4,5 @@ app_name='review'
 urlpatterns=[
     path('',views.index,name='index'),
     path('after_test/',views.after_test,name='after_test'),
-
+  #  path('export/',views.export,name='export'),
 ]

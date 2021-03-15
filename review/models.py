@@ -10,3 +10,5 @@ class Result(models.Model):
     Name=models.CharField(max_length=200,blank=True)
     Question=models.IntegerField(null=False,blank=True,choices=Answer_choice)
     D_result=models.IntegerField(null=True)
+
+
